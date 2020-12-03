@@ -5,7 +5,7 @@ using UnityEngine;
 public class AreaDetect : MonoBehaviour
 {
 
-    //timer para gestión eventos que solo deben ocurrir cada x segundos
+    //Timer para gestión eventos que solo deben ocurrir cada x segundos
     float Timer;
     void Update()
     {

@@ -24,7 +24,7 @@ public class EventManager : MonoBehaviour
             onTakeHit();
         }
     }
-    //evento para recuperar puntos
+    //Evento para recuperar puntos
     public event Action onAddPower;
 
     public void addPower()
@@ -35,7 +35,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    //evento recogida mojon
+    //Evento recogida mojon
     public event Action onPickUp;
 
     public void pickUp()
@@ -46,7 +46,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    //evento en caso de muerte
+    //Evento en caso de muerte
     public event Action onDeath;
 
     public void death()
@@ -58,7 +58,7 @@ public class EventManager : MonoBehaviour
     }
 
 
-    //evento en caso de contacto con enemigo
+    //Evento en caso de contacto con enemigo
     public event Action onContact;
 
     public void contact()

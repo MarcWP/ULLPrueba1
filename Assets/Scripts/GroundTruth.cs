@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundTruth : MonoBehaviour
 {
 
-    //comprobación del estado de contacto con el suelo, tue en contacto y false en el aire
+    //Comprobación del estado de contacto con el suelo, tue en contacto y false en el aire
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Suelo")

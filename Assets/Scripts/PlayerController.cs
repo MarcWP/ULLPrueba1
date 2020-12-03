@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject enemigo;
 
-    //inicializamos las variables relevantes al movimiento
+    //Inicializamos las variables relevantes al movimiento
     private void Start()
     {
         spriteRend = gameObject.GetComponent<SpriteRenderer>();
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //dependiendo de la tecla pulsada nos moveremos a los lados o saltaremos
+        //Dependiendo de la tecla pulsada nos moveremos a los lados o saltaremos
 
         if (Input.GetKey(KeyCode.A))
         {

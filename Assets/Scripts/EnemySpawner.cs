@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     private int index;
     Vector3 pos;
     public float timing;
-    // Start is called before the first frame update
+   
     void Awake()
     {
         InvokeRepeating("spawn", 0f, timing);

@@ -16,7 +16,7 @@ public class Vidas : MonoBehaviour
         EventManager.current.onContact += reduceHP;
     }
 
-    //debemos tenerlo en cuenta el mojon de cara al contador, 3 mojones equivalen una vida
+    //Debemos tenerlo en cuenta el mojon de cara al contador, 3 mojones equivalen una vida
     private void addPoints()
     {
         scorePoints = scorePoints + 1;
@@ -27,7 +27,7 @@ public class Vidas : MonoBehaviour
         }
         score.text = "Vidas:" + vidas;
     }
-    //si un enemigo nos toca, deberemos restar una vida
+    //Si un enemigo nos toca, deberemos restar una vida
     private void reduceHP()
     {
         vidas -= 1;
