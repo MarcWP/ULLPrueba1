@@ -19,7 +19,12 @@ public class HealthManager : MonoBehaviour
     {
         updatedHealth -= 1;
         healthbar.setHealth(updatedHealth);
-        
+        if (updatedHealth==0)
+        {
+            updatedHealth = 100;
+            healthbar.setHealth(updatedHealth);
+            EventManager.current.contact();
+        }
     }
     //recuperamos un punto de vida al permanecer cerca del gato
     private void addHealth()
